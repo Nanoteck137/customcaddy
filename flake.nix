@@ -19,7 +19,7 @@
           version = "0.0.1";
           src = ./.;
 
-          vendorHash = "sha256-9+Z6qO7hBwDNs8UOf/zW3kAOwIq4GZKiJdqWfaPyfSw=";
+          vendorHash = "sha256-w0DlIcya8PzKHMhG6TI7EJeROMDOAU+XsP9Bep7woLw=";
 
           CGO_ENABLED = false;
 
