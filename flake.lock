@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "dist": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692317149,
+        "narHash": "sha256-b4cDDUcdVoB7kU677nrKf8W/5QMnB5vEaPYVBMllEA8=",
+        "owner": "caddyserver",
+        "repo": "dist",
+        "rev": "b633572824e26a07926a89284ddd1f1c49fbf1d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "caddyserver",
+        "repo": "dist",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,6 +52,7 @@
     },
     "root": {
       "inputs": {
+        "dist": "dist",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }
