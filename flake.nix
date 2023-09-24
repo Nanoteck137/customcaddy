@@ -16,10 +16,10 @@
 
         app = pkgs.buildGoModule {
           pname = "caddy";
-          version = "0.0.1";
+          version = "2.6.4";
           src = ./.;
 
-          vendorHash = "sha256-w0DlIcya8PzKHMhG6TI7EJeROMDOAU+XsP9Bep7woLw=";
+          vendorHash = "sha256-TtOKrSeh0f74glP9fpRCYC47u8Qj2nXtzbpwFg2RLkE=";
 
           CGO_ENABLED = false;
 
