@@ -23,7 +23,7 @@
           version = "2.6.4";
           src = ./.;
 
-          vendorHash = "sha256-TtOKrSeh0f74glP9fpRCYC47u8Qj2nXtzbpwFg2RLkE=";
+          vendorHash = "sha256-ir+xYl8FtAtS6P5wuzGUhGPb1d4NJrVeaOucLwdnfzc=";
 
           CGO_ENABLED = false;
 
