@@ -3,6 +3,7 @@ module github.com/nanoteck137/customcaddy
 go 1.20
 
 require (
+	github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e
 	github.com/caddy-dns/duckdns v0.4.0
 	github.com/caddy-dns/dynu v0.1.1
 	github.com/caddyserver/caddy/v2 v2.7.6
@@ -64,6 +65,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.0 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
+	github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab // indirect
 	github.com/libdns/duckdns v0.2.0 // indirect
 	github.com/libdns/dynu v0.1.1 // indirect
 	github.com/libdns/libdns v0.2.2 // indirect

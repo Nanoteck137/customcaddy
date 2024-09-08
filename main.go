@@ -7,6 +7,7 @@ import (
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
 	_ "github.com/caddy-dns/duckdns"
 	_ "github.com/caddy-dns/dynu"
+	_ "github.com/caddy-dns/cloudflare"
 )
 
 func main() {
